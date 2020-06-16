@@ -1,0 +1,125 @@
+.header{
+  text-align: center;
+}
+
+.movie-app {
+    font-family: sans-serif;
+  }
+  
+  /** add movie **/
+  .add-movie {
+    margin-left: 0.5rem;
+  }
+  
+  /** movie list **/
+  .movie-list {
+    margin-top: 1rem;
+    text-align: left;
+    list-style: none;
+  }
+  
+  /** movie item **/
+  .movie-item {
+    font-family: monospace;
+    cursor: pointer;
+    line-height: 1.5;
+  }
+  .movie-item__text--completed {
+    text-decoration: line-through;
+    color: lightgray;
+  }
+  
+  /** visibility filters **/
+  .filter {
+    padding: 0.3rem 0;
+    margin: 0 0.3rem;
+    cursor: pointer;
+  }
+  .filter--active {
+    border-bottom: 1px solid black;
+  }
+  
+  /** onboarding **/
+  .slides-bg {
+    background-color: rgb(62, 231, 180);
+    /* background-color: #ccc; */
+  }
+  
+  .fullscreen {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+  }
+  
+  .slides-controls {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding:20px;
+    z-index: 10;
+  }
+  
+  .slide-inactive {
+    /*background-color: #0000CC;*/
+    display: none;
+  }
+  
+  .slide-active {
+    display: inline;
+  }
+  
+  .align-center {
+    display: inline-flex;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
+  .align-right {
+    position: absolute;
+    display: inline;
+    right:20px;
+  }
+  
+  .control-btn {
+    background:transparent;
+    border: none;
+    color:white;
+  }
+  
+  .indicator {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    background:transparent;
+    border:none;
+    padding:0;
+    margin:0;
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    transform: translate(50%);
+  }
+  
+  .indicator-inactive {
+    background-color:white;
+  }
+  
+  .indicator-active {
+    background-color: rgba(105, 105, 226, 0.432);
+  }
+
+  .review-content{
+    margin: 2px;
+
+  }
+
+  .link-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: xx-large;
+  }
