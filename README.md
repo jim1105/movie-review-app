@@ -1,7 +1,7 @@
 # Project Specification
 A prototype that allows users to search for and save movies in the user watchlist. Users will be able to search for particular movies based on genre. This prototype also allows user to create a review for a movie and use live support to interact with online agent for any feedbacks and concerns.
 
-# Features in Detail
+# Features
 *	Filter: filter movies by genre
 *	Sort: sort all movies by rating
 *	Save movies: save a movie to a watchlist (login user only)
